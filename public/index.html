@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Téléchargeur YT</title>
+</head>
+<body>
+  <h2>Téléchargeur YouTube</h2>
+  <form action="/telecharger" method="post">
+    <label>URL YouTube :</label>
+    <input type="text" name="url" required><br><br>
+    
+    <label>Code format (ex: 18, 22, 137+140) :</label>
+    <input type="text" name="format" required><br><br>
+    
+    <label>Nom du fichier :</label>
+    <input type="text" name="filename" required><br><br>
+
+    <button type="submit">Télécharger</button>
+  </form>
+</body>
+</html>
